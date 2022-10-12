@@ -9,7 +9,7 @@
     "preview": "vite preview",
     "fmt": "prettier --write .",
     "lint": "eslint . --ext .vue,.js,.jsx,.cjs,.mjs,.ts,.tsx,.cts,.mts --fix --ignore-path .gitignore",
-    "start": "npm run dev",
+    "start": "pnpm run dev",
     "type-check": "vue-tsc --noEmit"
   },
   "dependencies": {
