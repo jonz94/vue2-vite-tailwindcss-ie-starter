@@ -26,6 +26,7 @@
     "@types/prettier": "^2.7.1",
     "@vitejs/plugin-legacy": "^2.2.0",
     "@vitejs/plugin-vue2": "^2.0.0",
+    "@volar/vue-typescript": "^0.40.13",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^11.0.2",
     "@vue/tsconfig": "^0.1.3",
