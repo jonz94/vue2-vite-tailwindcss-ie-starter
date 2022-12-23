@@ -5,7 +5,7 @@ specifiers:
   '@types/eslint': ^8.4.10
   '@types/node': ^16.18.10
   '@types/prettier': ^2.7.2
-  '@vitejs/plugin-legacy': ^2.2.0
+  '@vitejs/plugin-legacy': ^2.3.1
   '@vitejs/plugin-vue2': ^2.0.0
   '@volar/vue-typescript': ^0.40.13
   '@vue/eslint-config-prettier': ^7.0.0
@@ -40,7 +40,7 @@ devDependencies:
   '@types/eslint': 8.4.10
   '@types/node': 16.18.10
   '@types/prettier': 2.7.2
-  '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.7
+  '@vitejs/plugin-legacy': 2.3.1_terser@5.15.1+vite@3.1.7
   '@vitejs/plugin-vue2': 2.0.0_vite@3.1.7+vue@2.7.11
   '@volar/vue-typescript': 0.40.13
   '@vue/eslint-config-prettier': 7.0.0_znq2sm4m5bonjw4qqm6mwhbe2q
@@ -75,8 +75,8 @@ packages:
     dependencies:
       '@babel/types': 7.19.3
 
-  /@babel/standalone/7.19.3:
-    resolution: {integrity: sha512-zSdDx28L6f27Y59OMrl8mBbtyB/cpIGlHm7wVOHlcmUTpD10AiUILkekZATkkpsuTagTWezdJmUaeY8P2SONUA==}
+  /@babel/standalone/7.20.10:
+    resolution: {integrity: sha512-DT7ZAEoPDXPR8EkfiaHTjbbkdAVYhGfrgzBoZSMfWdIZgkVVscQqTwLdzANUkeULQspeOsXdxyvrCCdNUg4QFg==}
     engines: {node: '>=6.9.0'}
     dev: true
 
@@ -361,17 +361,17 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-legacy/2.2.0_terser@5.15.1+vite@3.1.7:
-    resolution: {integrity: sha512-xkSXZl2LNk0KKyo5CJknNW84mSlmHIClFzsBuFXkX3yBt+Lr8UO/n4QOg2X7+jvurgBRies9FRn3ZvMem+TmIg==}
+  /@vitejs/plugin-legacy/2.3.1_terser@5.15.1+vite@3.1.7:
+    resolution: {integrity: sha512-J5KaGBlSt2tEYPVjM/C8dA6DkRzkFkbPe+Xb4IX5G+XOV5OGbVAfkMjKywdrkO3gGynO8S98i71Lmsff4cWkCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
       terser: ^5.4.0
       vite: ^3.0.0
     dependencies:
-      '@babel/standalone': 7.19.3
-      core-js: 3.25.3
-      magic-string: 0.26.5
-      regenerator-runtime: 0.13.9
+      '@babel/standalone': 7.20.10
+      core-js: 3.26.1
+      magic-string: 0.26.7
+      regenerator-runtime: 0.13.11
       systemjs: 6.13.0
       terser: 5.15.1
       vite: 3.1.7_terser@5.15.1
@@ -780,8 +780,8 @@ packages:
     resolution: {integrity: sha512-/Srv4dswyQNBfohGpz9o6Yb3Gz3SrUDqBH5rTuhGR7ahtlbYKnVxw2bCFMRljaA7EXHaXZ8wsHdodFvbkhKmqg==}
     dev: true
 
-  /core-js/3.25.3:
-    resolution: {integrity: sha512-y1hvKXmPHvm5B7w4ln1S4uc9eV/O5+iFExSRUimnvIph11uaizFR8LFMdONN8hG3P2pipUfX4Y/fR8rAEtcHcQ==}
+  /core-js/3.26.1:
+    resolution: {integrity: sha512-21491RRQVzUn0GGM9Z1Jrpr6PNPxPi+Za8OM9q4tksTSnlbXXGKK1nXNg/QvwFYettXvSX6zWKCtHHfjN4puyA==}
     requiresBuild: true
     dev: true
 
@@ -1779,8 +1779,8 @@ packages:
       sourcemap-codec: 1.4.8
     dev: true
 
-  /magic-string/0.26.5:
-    resolution: {integrity: sha512-yXUIYOOQnEHKHOftp5shMWpB9ImfgfDJpapa38j/qMtTj5QHWucvxP4lUtuRmHT9vAzvtpHkWKXW9xBwimXeNg==}
+  /magic-string/0.26.7:
+    resolution: {integrity: sha512-hX9XH3ziStPoPhJxLq1syWuZMxbDvGNbVchfrdCtanC7D13888bMFow61x8axrx+GfHLtVeAx2kxL7tTGRl+Ow==}
     engines: {node: '>=12'}
     dependencies:
       sourcemap-codec: 1.4.8
@@ -2205,8 +2205,8 @@ packages:
       postcss-value-parser: 3.3.1
     dev: true
 
-  /regenerator-runtime/0.13.9:
-    resolution: {integrity: sha512-p3VT+cOEgxFsRRA9X4lkI1E+k2/CtnKtU4gcxyaCUreilL/vqI6CdZ3wxVUx3UOUg+gnUOQQcRI7BmSI656MYA==}
+  /regenerator-runtime/0.13.11:
+    resolution: {integrity: sha512-kY1AZVr2Ra+t+piVaJ4gxaFaReZVH40AKNo7UCX6W+dEwBo/2oZJzqfuN1qLq1oL45o56cPaTXELwrTh8Fpggg==}
     dev: true
 
   /regexp.prototype.flags/1.4.3:
