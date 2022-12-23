@@ -15,7 +15,7 @@ specifiers:
   eslint: ^8.30.0
   eslint-plugin-vue: ^9.8.0
   npm-run-all: ^4.1.5
-  pinia: ^2.0.23
+  pinia: ^2.0.28
   prettier: ^2.7.1
   prettier-plugin-organize-imports: ^3.1.1
   prettier-plugin-tailwindcss: ^0.1.13
@@ -30,7 +30,7 @@ specifiers:
 
 dependencies:
   axios: 0.27.2
-  pinia: 2.0.23_rabshqtiueagdclvl657edgsoq
+  pinia: 2.0.28_rabshqtiueagdclvl657edgsoq
   sweetalert2: 10.16.9
   vue: 2.7.11
   vue-router: 3.6.5_vue@2.7.11
@@ -471,8 +471,8 @@ packages:
       '@vue/shared': 3.2.40
     dev: true
 
-  /@vue/devtools-api/6.4.4:
-    resolution: {integrity: sha512-Ku31WzpOV/8cruFaXaEZKF81WkNnvCSlBY4eOGtz5WMSdJvX1v1WWlSMGZeqUwPtQ27ZZz7B62erEMq8JDjcXw==}
+  /@vue/devtools-api/6.4.5:
+    resolution: {integrity: sha512-JD5fcdIuFxU4fQyXUu3w2KpAJHzTVdN+p4iOX2lMWSHMOoQdMAcpFLZzm9Z/2nmsoZ1a96QEhZ26e50xLBsgOQ==}
     dev: false
 
   /@vue/eslint-config-prettier/7.0.0_kuvvoglztceao54jgbqqzvnnqm:
@@ -2038,8 +2038,8 @@ packages:
     engines: {node: '>=4'}
     dev: true
 
-  /pinia/2.0.23_rabshqtiueagdclvl657edgsoq:
-    resolution: {integrity: sha512-N15hFf4o5STrxpNrib1IEb1GOArvPYf1zPvQVRGOO1G1d74Ak0J0lVyalX/SmrzdT4Q0nlEFjbURsmBmIGUR5Q==}
+  /pinia/2.0.28_rabshqtiueagdclvl657edgsoq:
+    resolution: {integrity: sha512-YClq9DkqCblq9rlyUual7ezMu/iICWdBtfJrDt4oWU9Zxpijyz7xB2xTwx57DaBQ96UGvvTMORzALr+iO5PVMw==}
     peerDependencies:
       '@vue/composition-api': ^1.4.0
       typescript: '>=4.4.4'
@@ -2050,7 +2050,7 @@ packages:
       typescript:
         optional: true
     dependencies:
-      '@vue/devtools-api': 6.4.4
+      '@vue/devtools-api': 6.4.5
       typescript: 4.8.4
       vue: 2.7.11
       vue-demi: 0.13.11_vue@2.7.11
