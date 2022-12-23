@@ -1,5 +1,13 @@
 # Vue 2 + Vite + Tailwind CSS Starter (compatible with IE 11)
 
+## Usage
+
+Use [`tiged`](https://github.com/tiged/tiged) to create project from this starter:
+
+```shell
+npx tiged@latest jonz94/vue2-vite-tailwindcss-ie-starter new-vue2-project
+```
+
 ## Tool Stacks
 
 - [Vue v2.7](https://v2.vuejs.org/)
@@ -11,7 +19,8 @@
 - [axios](https://axios-http.com)
 - [pnpm](https://pnpm.io/)
 - [ESLint](https://eslint.org)
-- [Prettier](https://prettier.io/) with following Prettier plugins:
+    - [eslint-plugin-vue](https://eslint.vuejs.org/)
+- [Prettier](https://prettier.io/)
     - [prettier-plugin-organize-imports](https://github.com/simonhaenisch/prettier-plugin-organize-imports)
     - [prettier-plugin-tailwindcss](https://github.com/tailwindlabs/prettier-plugin-tailwindcss)
 
