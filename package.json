@@ -16,7 +16,7 @@
     "axios": "^0.27.2",
     "pinia": "^2.0.28",
     "sweetalert2": "^10.16.11",
-    "vue": "^2.7.11",
+    "vue": "^2.7.14",
     "vue-router": "^3.6.5"
   },
   "devDependencies": {
