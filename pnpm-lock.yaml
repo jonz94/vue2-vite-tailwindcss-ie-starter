@@ -2,7 +2,7 @@ lockfileVersion: 5.4
 
 specifiers:
   '@rushstack/eslint-patch': ^1.2.0
-  '@types/eslint': ^8.4.6
+  '@types/eslint': ^8.4.10
   '@types/node': ^16.11.65
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-legacy': ^2.2.0
@@ -37,7 +37,7 @@ dependencies:
 
 devDependencies:
   '@rushstack/eslint-patch': 1.2.0
-  '@types/eslint': 8.4.6
+  '@types/eslint': 8.4.10
   '@types/node': 16.11.65
   '@types/prettier': 2.7.1
   '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.7
@@ -212,8 +212,8 @@ packages:
     resolution: {integrity: sha512-sXo/qW2/pAcmT43VoRKOJbDOfV3cYpq3szSVfIThQXNt+E4DfKj361vaAt3c88U5tPUxzEswam7GW48PJqtKAg==}
     dev: true
 
-  /@types/eslint/8.4.6:
-    resolution: {integrity: sha512-/fqTbjxyFUaYNO7VcW5g+4npmqVACz1bB7RTHYuLj+PRjw9hrCwrUXVQFpChUS0JsyEFvMZ7U/PfmvWgxJhI9g==}
+  /@types/eslint/8.4.10:
+    resolution: {integrity: sha512-Sl/HOqN8NKPmhWo2VBEPm0nvHnu2LL3v9vKo8MEq0EtbJ4eVzGPl41VNPvn5E1i5poMk4/XD8UriLHpJvEP/Nw==}
     dependencies:
       '@types/estree': 1.0.0
       '@types/json-schema': 7.0.11
