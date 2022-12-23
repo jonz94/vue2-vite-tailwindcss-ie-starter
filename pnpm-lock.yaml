@@ -3,7 +3,7 @@ lockfileVersion: 5.4
 specifiers:
   '@rushstack/eslint-patch': ^1.2.0
   '@types/eslint': ^8.4.10
-  '@types/node': ^16.11.65
+  '@types/node': ^16.18.10
   '@types/prettier': ^2.7.1
   '@vitejs/plugin-legacy': ^2.2.0
   '@vitejs/plugin-vue2': ^2.0.0
@@ -38,14 +38,14 @@ dependencies:
 devDependencies:
   '@rushstack/eslint-patch': 1.2.0
   '@types/eslint': 8.4.10
-  '@types/node': 16.11.65
+  '@types/node': 16.18.10
   '@types/prettier': 2.7.1
   '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.7
   '@vitejs/plugin-vue2': 2.0.0_vite@3.1.7+vue@2.7.11
   '@volar/vue-typescript': 0.40.13
   '@vue/eslint-config-prettier': 7.0.0_znq2sm4m5bonjw4qqm6mwhbe2q
   '@vue/eslint-config-typescript': 11.0.2_qsmcthc5ijamuzfurbvbpwqwnm
-  '@vue/tsconfig': 0.1.3_@types+node@16.11.65
+  '@vue/tsconfig': 0.1.3_@types+node@16.18.10
   eslint: 8.25.0
   eslint-plugin-vue: 9.6.0_eslint@8.25.0
   npm-run-all: 4.1.5
@@ -227,8 +227,8 @@ packages:
     resolution: {integrity: sha512-wOuvG1SN4Us4rez+tylwwwCV1psiNVOkJeM3AUWUNWg/jDQY2+HE/444y5gc+jBmRqASOm2Oeh5c1axHobwRKQ==}
     dev: true
 
-  /@types/node/16.11.65:
-    resolution: {integrity: sha512-Vfz7wGMOr4jbQGiQHVJm8VjeQwM9Ya7mHe9LtQ264/Epf5n1KiZShOFqk++nBzw6a/ubgYdB9Od7P+MH/LjoWw==}
+  /@types/node/16.18.10:
+    resolution: {integrity: sha512-XU1+v7h81p7145ddPfjv7jtWvkSilpcnON3mQ+bDi9Yuf7OI56efOglXRyXWgQ57xH3fEQgh7WOJMncRHVew5w==}
     dev: true
 
   /@types/prettier/2.7.1:
@@ -538,7 +538,7 @@ packages:
     resolution: {integrity: sha512-0PLQ6RUtZM0vO3teRfzGi4ltLUO5aO+kLgwh4Um3THSR03rpQWLTuRCkuO5A41ITzwdWeKdPHtSARuPkoo5pCQ==}
     dev: true
 
-  /@vue/tsconfig/0.1.3_@types+node@16.11.65:
+  /@vue/tsconfig/0.1.3_@types+node@16.18.10:
     resolution: {integrity: sha512-kQVsh8yyWPvHpb8gIc9l/HIDiiVUy1amynLNpCy8p+FoCiZXCo6fQos5/097MmnNZc9AtseDsCrfkhqCrJ8Olg==}
     peerDependencies:
       '@types/node': '*'
@@ -546,7 +546,7 @@ packages:
       '@types/node':
         optional: true
     dependencies:
-      '@types/node': 16.11.65
+      '@types/node': 16.18.10
     dev: true
 
   /acorn-jsx/5.3.2_acorn@8.8.0:
