@@ -23,7 +23,7 @@ specifiers:
   tailwindcss: ^1.9.6
   terser: ^5.16.1
   typescript: ^4.9.4
-  vite: ^3.1.7
+  vite: ^3.2.5
   vue: ^2.7.11
   vue-router: ^3.6.5
   vue-tsc: ^0.40.13
@@ -40,8 +40,8 @@ devDependencies:
   '@types/eslint': 8.4.10
   '@types/node': 16.18.10
   '@types/prettier': 2.7.2
-  '@vitejs/plugin-legacy': 2.3.1_terser@5.16.1+vite@3.1.7
-  '@vitejs/plugin-vue2': 2.2.0_vite@3.1.7+vue@2.7.11
+  '@vitejs/plugin-legacy': 2.3.1_terser@5.16.1+vite@3.2.5
+  '@vitejs/plugin-vue2': 2.2.0_vite@3.2.5+vue@2.7.11
   '@volar/vue-typescript': 0.40.13
   '@vue/eslint-config-prettier': 7.0.0_l5rdqc4k22455lce6ocqroldia
   '@vue/eslint-config-typescript': 11.0.2_eh2oupyoc3mviptu6zovyv6md4
@@ -55,7 +55,7 @@ devDependencies:
   tailwindcss: 1.9.6
   terser: 5.16.1
   typescript: 4.9.4
-  vite: 3.1.7_terser@5.16.1
+  vite: 3.2.5_wfcuxwov6q7gtzhwec2pxhxpru
   vue-tsc: 0.40.13_typescript@4.9.4
 
 packages:
@@ -361,7 +361,7 @@ packages:
       eslint-visitor-keys: 3.3.0
     dev: true
 
-  /@vitejs/plugin-legacy/2.3.1_terser@5.16.1+vite@3.1.7:
+  /@vitejs/plugin-legacy/2.3.1_terser@5.16.1+vite@3.2.5:
     resolution: {integrity: sha512-J5KaGBlSt2tEYPVjM/C8dA6DkRzkFkbPe+Xb4IX5G+XOV5OGbVAfkMjKywdrkO3gGynO8S98i71Lmsff4cWkCQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     peerDependencies:
@@ -374,17 +374,17 @@ packages:
       regenerator-runtime: 0.13.11
       systemjs: 6.13.0
       terser: 5.16.1
-      vite: 3.1.7_terser@5.16.1
+      vite: 3.2.5_wfcuxwov6q7gtzhwec2pxhxpru
     dev: true
 
-  /@vitejs/plugin-vue2/2.2.0_vite@3.1.7+vue@2.7.11:
+  /@vitejs/plugin-vue2/2.2.0_vite@3.2.5+vue@2.7.11:
     resolution: {integrity: sha512-1km7zEuZ/9QRPvzXSjikbTYGQPG86Mq1baktpC4sXqsXlb02HQKfi+fl8qVS703JM7cgm24Ga9j+RwKmvFn90A==}
     engines: {node: ^14.18.0 || >= 16.0.0}
     peerDependencies:
       vite: ^3.0.0 || ^4.0.0
       vue: ^2.7.0-0
     dependencies:
-      vite: 3.1.7_terser@5.16.1
+      vite: 3.2.5_wfcuxwov6q7gtzhwec2pxhxpru
       vue: 2.7.11
     dev: true
 
@@ -460,7 +460,7 @@ packages:
       '@vue/shared': 3.2.40
       estree-walker: 2.0.2
       magic-string: 0.25.9
-      postcss: 8.4.17
+      postcss: 8.4.20
       source-map: 0.6.1
     dev: true
 
@@ -2129,6 +2129,15 @@ packages:
       picocolors: 1.0.0
       source-map-js: 1.0.2
 
+  /postcss/8.4.20:
+    resolution: {integrity: sha512-6Q04AXR1212bXr5fh03u8aAwbLxAQNGQ/Q1LNa0VfOI06ZAlhPHtQvE4OIdpj4kLThXilalPnmDSOD65DcHt+g==}
+    engines: {node: ^10 || ^12 || >=14}
+    dependencies:
+      nanoid: 3.3.4
+      picocolors: 1.0.0
+      source-map-js: 1.0.2
+    dev: true
+
   /prelude-ls/1.2.1:
     resolution: {integrity: sha512-vkcDPrRZo1QZLbn5RLGPpg/WmIQ65qoWWhcGKf/b5eplkkarX0m9z8ppCat4mlOqUsWpyNuYgO3VRyrYHSzX5g==}
     engines: {node: '>= 0.8.0'}
@@ -2258,8 +2267,8 @@ packages:
       glob: 7.2.3
     dev: true
 
-  /rollup/2.78.1:
-    resolution: {integrity: sha512-VeeCgtGi4P+o9hIg+xz4qQpRl6R401LWEXBmxYKOV4zlF82lyhgh2hTZnheFUbANE8l2A41F458iwj2vEYaXJg==}
+  /rollup/2.79.1:
+    resolution: {integrity: sha512-uKxbd0IhMZOhjAiD5oAFp7BqvkA4Dv47qpOCtaNvng4HBwdbWtdOh8f5nZNuk2rp51PMGk3bzfWu5oayNEuYnw==}
     engines: {node: '>=10.0.0'}
     hasBin: true
     optionalDependencies:
@@ -2585,29 +2594,36 @@ packages:
       spdx-expression-parse: 3.0.1
     dev: true
 
-  /vite/3.1.7_terser@5.16.1:
-    resolution: {integrity: sha512-5vCAmU4S8lyVdFCInu9M54f/g8qbOMakVw5xJ4pjoaDy5wgy9sLLZkGdSLN52dlsBqh0tBqxjaqqa8LgPqwRAA==}
+  /vite/3.2.5_wfcuxwov6q7gtzhwec2pxhxpru:
+    resolution: {integrity: sha512-4mVEpXpSOgrssFZAOmGIr85wPHKvaDAcXqxVxVRZhljkJOMZi1ibLibzjLHzJvcok8BMguLc7g1W6W/GqZbLdQ==}
     engines: {node: ^14.18.0 || >=16.0.0}
     hasBin: true
     peerDependencies:
+      '@types/node': '>= 14'
       less: '*'
       sass: '*'
       stylus: '*'
+      sugarss: '*'
       terser: ^5.4.0
     peerDependenciesMeta:
+      '@types/node':
+        optional: true
       less:
         optional: true
       sass:
         optional: true
       stylus:
         optional: true
+      sugarss:
+        optional: true
       terser:
         optional: true
     dependencies:
+      '@types/node': 16.18.10
       esbuild: 0.15.10
-      postcss: 8.4.17
+      postcss: 8.4.20
       resolve: 1.22.1
-      rollup: 2.78.1
+      rollup: 2.79.1
       terser: 5.16.1
     optionalDependencies:
       fsevents: 2.3.2
