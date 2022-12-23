@@ -4,7 +4,7 @@ specifiers:
   '@rushstack/eslint-patch': ^1.2.0
   '@types/eslint': ^8.4.10
   '@types/node': ^16.18.10
-  '@types/prettier': ^2.7.1
+  '@types/prettier': ^2.7.2
   '@vitejs/plugin-legacy': ^2.2.0
   '@vitejs/plugin-vue2': ^2.0.0
   '@volar/vue-typescript': ^0.40.13
@@ -39,7 +39,7 @@ devDependencies:
   '@rushstack/eslint-patch': 1.2.0
   '@types/eslint': 8.4.10
   '@types/node': 16.18.10
-  '@types/prettier': 2.7.1
+  '@types/prettier': 2.7.2
   '@vitejs/plugin-legacy': 2.2.0_terser@5.15.1+vite@3.1.7
   '@vitejs/plugin-vue2': 2.0.0_vite@3.1.7+vue@2.7.11
   '@volar/vue-typescript': 0.40.13
@@ -231,8 +231,8 @@ packages:
     resolution: {integrity: sha512-XU1+v7h81p7145ddPfjv7jtWvkSilpcnON3mQ+bDi9Yuf7OI56efOglXRyXWgQ57xH3fEQgh7WOJMncRHVew5w==}
     dev: true
 
-  /@types/prettier/2.7.1:
-    resolution: {integrity: sha512-ri0UmynRRvZiiUJdiz38MmIblKK+oH30MztdBVR95dv/Ubw6neWSb8u1XpRb72L4qsZOhz+L+z9JD40SJmfWow==}
+  /@types/prettier/2.7.2:
+    resolution: {integrity: sha512-KufADq8uQqo1pYKVIYzfKbJfBAc0sOeXqGbFaSpv8MRmC/zXgowNZmFcbngndGk922QDmOASEXUZCaY48gs4cg==}
     dev: true
 
   /@typescript-eslint/eslint-plugin/5.38.1_444tv3vqp6lpktlxqzfovoqee4:
