@@ -1,6 +1,7 @@
 # Vue 2 + Vite + Tailwind CSS Starter (compatible with IE 11)
 
 [![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/jonz94/vue2-vite-tailwindcss-ie-starter)
+[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/s/github/jonz94/vue2-vite-tailwindcss-ie-starter)
 
 ## Usage
 
