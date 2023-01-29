@@ -8,17 +8,19 @@ Use [`tiged`](https://github.com/tiged/tiged) to create project from this starte
 npx tiged@latest jonz94/vue2-vite-tailwindcss-ie-starter new-vue2-project
 ```
 
-## Tool Stacks
+## Tech Stacks
 
 - [Vue v2.7](https://v2.vuejs.org/)
 - [Vue Router v3.x](https://v3.router.vuejs.org/)
 - [Pinia](https://pinia.vuejs.org/)
+- [TypeScript](https://www.typescriptlang.org/)
 - [Vite](https://vitejs.dev/)
 - [Tailwind CSS v1.x](https://v1.tailwindcss.com/)
-- [SweetAlert2 v10.x](https://sweetalert2.github.io/)
+- [SweetAlert2 v10.x](https://sweetalert2.github.io/v10.html)
 - [axios](https://axios-http.com)
 - [pnpm](https://pnpm.io/)
 - [ESLint](https://eslint.org)
+    - [TypeScript ESLint](https://typescript-eslint.io/)
     - [eslint-plugin-vue](https://eslint.vuejs.org/)
 - [Prettier](https://prettier.io/)
     - [prettier-plugin-organize-imports](https://github.com/simonhaenisch/prettier-plugin-organize-imports)
