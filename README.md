@@ -1,5 +1,7 @@
 # Vue 2 + Vite + Tailwind CSS Starter (compatible with IE 11)
 
+[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/jonz94/vue2-vite-tailwindcss-ie-starter)
+
 ## Usage
 
 Use [`tiged`](https://github.com/tiged/tiged) to create project from this starter:
