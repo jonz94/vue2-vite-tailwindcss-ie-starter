@@ -6,13 +6,7 @@ import { defineConfig } from 'vite'
 
 // https://vitejs.dev/config/
 export default defineConfig({
-  plugins: [
-    vue2(),
-    legacy({
-      targets: ['defaults', 'IE >= 11'],
-      additionalLegacyPolyfills: ['regenerator-runtime/runtime'],
-    }),
-  ],
+  plugins: [vue2(), legacy()],
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url)),
