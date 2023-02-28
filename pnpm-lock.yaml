@@ -9,7 +9,7 @@ specifiers:
   '@typescript-eslint/parser': ^5.54.0
   '@vitejs/plugin-legacy': ^4.0.1
   '@vitejs/plugin-vue2': ^2.2.0
-  '@volar/vue-typescript': ^1.1.3
+  '@volar/vue-typescript': ^1.2.0
   '@vue/eslint-config-prettier': ^7.0.0
   '@vue/eslint-config-typescript': ^11.0.2
   '@vue/tsconfig': ^0.1.3
@@ -48,7 +48,7 @@ devDependencies:
   '@typescript-eslint/parser': 5.54.0_7kw3g6rralp5ps6mg3uyzz6azm
   '@vitejs/plugin-legacy': 4.0.1_terser@5.16.4+vite@4.1.2
   '@vitejs/plugin-vue2': 2.2.0_vite@4.1.2+vue@2.7.14
-  '@volar/vue-typescript': 1.1.3
+  '@volar/vue-typescript': 1.2.0
   '@vue/eslint-config-prettier': 7.0.0_yrlhudqyxg2l7qvwle5bdpmrli
   '@vue/eslint-config-typescript': 11.0.2_h2vevngznqqjsppuxlkfy3oipa
   '@vue/tsconfig': 0.1.3_@types+node@18.14.2
@@ -58,7 +58,7 @@ devDependencies:
   npm-run-all: 4.1.5
   postcss: 8.4.21
   prettier: 2.8.4
-  prettier-plugin-organize-imports: 3.2.2_uixmftcyhzqsmwbpw4hwtkiflm
+  prettier-plugin-organize-imports: 3.2.2_vd6jo5k7z6qo2i4bq4qtj66sci
   prettier-plugin-tailwindcss: 0.2.3_tnxajtglrwt6ss4l7qpdnez62i
   tailwindcss: 1.9.6
   terser: 5.16.4
@@ -1719,8 +1719,20 @@ packages:
       '@volar/source-map': 1.2.0-alpha.14
     dev: true
 
+  /@volar/language-core/1.3.0-alpha.0:
+    resolution: {integrity: sha512-W3uMzecHPcbwddPu4SJpUcPakRBK/y/BP+U0U6NiPpUX1tONLC4yCawt+QBJqtgJ+sfD6ztf5PyvPL3hQRqfOA==}
+    dependencies:
+      '@volar/source-map': 1.3.0-alpha.0
+    dev: true
+
   /@volar/source-map/1.2.0-alpha.14:
     resolution: {integrity: sha512-rXXpxWipLQYGVoydv64sCvTeoVH6s/vb/BZ5yl+0MfgrwZdSVkFal+Fkl/d9ykAuGMTysHm9t6K7zzZZCJotAw==}
+    dependencies:
+      muggle-string: 0.2.2
+    dev: true
+
+  /@volar/source-map/1.3.0-alpha.0:
+    resolution: {integrity: sha512-jSdizxWFvDTvkPYZnO6ew3sBZUnS0abKCbuopkc0JrIlFbznWC/fPH3iPFIMS8/IIkRxq1Jh9VVG60SmtsdaMQ==}
     dependencies:
       muggle-string: 0.2.2
     dev: true
@@ -1729,6 +1741,12 @@ packages:
     resolution: {integrity: sha512-QAC0mBEt8jUhZsS8PAuZoNd2pYPBwgPxXG4SDD1mr2NvSMOhTfvzcyY5Y9voLmzIlYYr9AJMJWUwQQ4VzTtTaw==}
     dependencies:
       '@volar/language-core': 1.2.0-alpha.14
+    dev: true
+
+  /@volar/typescript/1.3.0-alpha.0:
+    resolution: {integrity: sha512-5UItyW2cdH2mBLu4RrECRNJRgtvvzKrSCn2y3v/D61QwIDkGx4aeil6x8RFuUL5TFtV6QvVHXnsOHxNgd+sCow==}
+    dependencies:
+      '@volar/language-core': 1.3.0-alpha.0
     dev: true
 
   /@volar/vue-language-core/1.1.3:
@@ -1745,11 +1763,32 @@ packages:
       vue-template-compiler: 2.7.14
     dev: true
 
+  /@volar/vue-language-core/1.2.0:
+    resolution: {integrity: sha512-w7yEiaITh2WzKe6u8ZdeLKCUz43wdmY/OqAmsB/PGDvvhTcVhCJ6f0W/RprZL1IhqH8wALoWiwEh/Wer7ZviMQ==}
+    dependencies:
+      '@volar/language-core': 1.3.0-alpha.0
+      '@volar/source-map': 1.3.0-alpha.0
+      '@vue/compiler-dom': 3.2.47
+      '@vue/compiler-sfc': 3.2.47
+      '@vue/reactivity': 3.2.47
+      '@vue/shared': 3.2.47
+      minimatch: 6.2.0
+      muggle-string: 0.2.2
+      vue-template-compiler: 2.7.14
+    dev: true
+
   /@volar/vue-typescript/1.1.3:
     resolution: {integrity: sha512-CNPzZ0cns7g0S8sXMs5zxl20IVGBkBv6yso5JXkou/NjR0O6GE6hDW7TL1gDibL/Lq11QFE9YPj+mS4T+WsEug==}
     dependencies:
       '@volar/typescript': 1.2.0-alpha.14
       '@volar/vue-language-core': 1.1.3
+    dev: true
+
+  /@volar/vue-typescript/1.2.0:
+    resolution: {integrity: sha512-zjmRi9y3J1EkG+pfuHp8IbHmibihrKK485cfzsHjiuvJMGrpkWvlO5WVEk8oslMxxeGC5XwBFE9AOlvh378EPA==}
+    dependencies:
+      '@volar/typescript': 1.3.0-alpha.0
+      '@volar/vue-language-core': 1.2.0
     dev: true
 
   /@vue/compiler-core/3.2.47:
@@ -3481,7 +3520,7 @@ packages:
       fast-diff: 1.2.0
     dev: true
 
-  /prettier-plugin-organize-imports/3.2.2_uixmftcyhzqsmwbpw4hwtkiflm:
+  /prettier-plugin-organize-imports/3.2.2_vd6jo5k7z6qo2i4bq4qtj66sci:
     resolution: {integrity: sha512-e97lE6odGSiHonHJMTYC0q0iLXQyw0u5z/PJpvP/3vRy6/Zi9kLBwFAbEGjDzIowpjQv8b+J04PDamoUSQbzGA==}
     peerDependencies:
       '@volar/vue-language-plugin-pug': ^1.0.4
@@ -3494,7 +3533,7 @@ packages:
       '@volar/vue-typescript':
         optional: true
     dependencies:
-      '@volar/vue-typescript': 1.1.3
+      '@volar/vue-typescript': 1.2.0
       prettier: 2.8.4
       typescript: 4.9.5
     dev: true
@@ -3552,7 +3591,7 @@ packages:
         optional: true
     dependencies:
       prettier: 2.8.4
-      prettier-plugin-organize-imports: 3.2.2_uixmftcyhzqsmwbpw4hwtkiflm
+      prettier-plugin-organize-imports: 3.2.2_vd6jo5k7z6qo2i4bq4qtj66sci
     dev: true
 
   /prettier/2.8.4:
