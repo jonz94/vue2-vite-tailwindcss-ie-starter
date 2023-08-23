@@ -1,11 +1,10 @@
 /** @type {import('prettier').Config} */
-module.exports = {
+const config = {
   printWidth: 120,
   semi: false,
   singleQuote: true,
-  trailingComma: 'all',
 
-  plugins: [require('./.prettier-plugins-workaround.cjs')],
+  plugins: ['prettier-plugin-organize-imports', 'prettier-plugin-tailwindcss'],
 
   overrides: [
     {
@@ -16,3 +15,5 @@ module.exports = {
     },
   ],
 }
+
+export default config
